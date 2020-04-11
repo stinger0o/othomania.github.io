@@ -1,7 +1,7 @@
 body{
 	background-color: #1c263e;
 	background-image: url('sky_background.jpg');
-	overflow: visible;
+	overflow: scroll;
 }
 head{
 	background-color: grey;

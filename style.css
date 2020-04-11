@@ -13,7 +13,7 @@ p{
 	color: wheat;
 }
 h1{
-	margin: 5%;
+	
 	color: white;
 	font-weight: bold;
 }
@@ -31,6 +31,11 @@ h5{
 }
 a{
 	color: white;
+}
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
 }
 div.background{
 	background:url(moon_banner.jpg) repeat;

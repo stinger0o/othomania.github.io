@@ -1,6 +1,6 @@
 body{
 	background-color: #1c263e;
-	background-image: url('sky_background.jpg');
+	background-image: url('artworks/sky_background.jpg');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
@@ -63,7 +63,7 @@ li a:hover{
 }
 
 div.background{
-	background:url(moon_banner.jpg) repeat;
+	background:url(artworks/moon_banner.jpg) repeat;
 	border: 2px solid black;
 	opacity: 0.6;
 }

@@ -33,7 +33,7 @@ a{
 	color: white;
 }
 div.background{
-	background:url(moon_banner.jpg) no-repeat;
+	background:url(moon_banner.jpg) repeat;
 	border: 2px solid black;
 	opacity: 0.6;
 }

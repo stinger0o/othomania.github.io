@@ -30,6 +30,7 @@ nav {
 
 .studio{
 	font-style: italic;
+	margin: 10px;
 }
 
 footer{
@@ -101,12 +102,13 @@ a{
 }
 
 main {
-	padding-left: 70px;
-	padding-right: 60px;
+	padding-left: auto;
+	padding-right: auto;
+	margin: 50px;
 }
 
 img{
-	float: auto;
+	float: right;
 	width: auto;
 
 }

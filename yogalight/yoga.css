@@ -2,7 +2,7 @@ body{
 	background-color: #F5F5F5;
 	color: #3F2860;
 	font-family: Verdana, Arial, sans-serif;
-	overflow: scroll;
+	
 }
 
 header{
@@ -19,10 +19,13 @@ h1{
 	padding-left: 2em;
 }
 
-#navigation-bar nav {
+nav {
   text-align: center;
   font-weight: bold;
   background-color: #F5F5F5;
+  position: sticky;
+  position: -webkit-sticky;
+  top :0;
 }
 
 .studio{
@@ -38,16 +41,16 @@ footer{
 	padding: 0;
 	bottom: 0;
 	width: auto;
-	position: bottom;
+
 
 }
 
 
-#navigation-bar a{
+a{
 	color: #3F2860;
 }
-#navigation-bar ul{
-	overflow: hidden;
+.menu-bar ul{
+	
 	background-color: grey;
 	position: -webkit-sticky;
 	position:sticky;
@@ -55,12 +58,13 @@ footer{
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
+	overflow: hidden;
 }
-#navigation-bar li{
+.navigation-bar li{
 	float: left;
 }
 
-#navigation-bar li a{
+.navigation-bar li a{
 	display:block;
 	color: #3F2860;
 	text-align: center;
@@ -68,7 +72,7 @@ footer{
 	text-decoration: none;
 }
 
-#navigation-bar li a:hover{
+.navigation-bar li a:hover{
 	background-color: #F2E0F7;
 }
 
@@ -113,3 +117,4 @@ img{
 div.transparent{
 	opacity: 0.6;
 }
+

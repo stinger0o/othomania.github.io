@@ -1,0 +1,18 @@
+body{
+	background-color: #F5F5F5;
+	text-color: #3F2860;
+	font-family: Verdana, Arial, sans-serif;
+	overflow: scroll;
+}
+
+header{
+	background-color: #9BC1C2;
+	background-image: url(artworks/yoga/lilyheader.jpg);
+	background-repeat: no-repeat;
+	background-position: right;
+	
+}
+
+h1{
+	line-height: 200%;
+}

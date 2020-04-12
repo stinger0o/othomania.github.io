@@ -16,3 +16,12 @@ header{
 h1{
 	line-height: 200%;
 }
+
+
+div #wrapper{
+	width: 500px;
+	margin: 0 auto;
+}
+div.transparent{
+	opacity: 0.6;
+}

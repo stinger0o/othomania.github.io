@@ -15,7 +15,8 @@ header{
 }
 
 h1{
-	
+	padding-top: 50px;	
+	padding-left: 2em;
 }
 
 nav {
@@ -24,13 +25,28 @@ nav {
   background-color: #F5F5F5;
 }
 
+.studio{
+	font-style: italic;
+}
+
+footer{
+	background-color: #9BC1C2;
+	font-size: .60em;
+	font-style: italic;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	bottom: 0;
+	width: 100%;
+	position: absolute;
+
+}
 
 
-
-a{
+#navigation-bar a{
 	color: #3F2860;
 }
-ul{
+#navigation-bar ul{
 	overflow: hidden;
 	background-color: grey;
 	position: -webkit-sticky;
@@ -40,11 +56,11 @@ ul{
 	margin: 0;
 	padding: 0;
 }
-li{
+#navigation-bar li{
 	float: left;
 }
 
-li a{
+#navigation-bar li a{
 	display:block;
 	color: #3F2860;
 	text-align: center;
@@ -52,7 +68,7 @@ li a{
 	text-decoration: none;
 }
 
-li a:hover{
+#navigation-bar li a:hover{
 	background-color: #F2E0F7;
 }
 
@@ -60,9 +76,37 @@ li a:hover{
 	background-color:#CEECF5;
 }
 
-div #wrapper{
-	width: 500px;
+ul{
+	display: block;
+	list-style-type: disc;
+	margin-top: 1em;
+	margin-bottom: 1 em;
+	margin-left: 0;
+	margin-right: 0;
+	padding-left: 40px;
+}
+
+
+
+#wrapper{
+	width: 80%;
 	margin: 0 auto;
+	background-color: #CEECF5 ;
+	max-width: 1280;
+}
+
+main {
+	padding: auto;
+}
+
+img{
+	float: right;
+	height: max-content;
+
+}
+
+#hero{
+	text-align: center;
 }
 div.transparent{
 	opacity: 0.6;

@@ -2,7 +2,9 @@ body{
 	background-color: #F5F5F5;
 	color: #3F2860;
 	font-family: Verdana, Arial, sans-serif;
-	
+	background-attachment: fixed;
+	background-size: cover;
+	overflow: scroll;
 }
 
 header{
@@ -10,6 +12,7 @@ header{
 	background-image: url(yoga/lilyheader.jpg);
 	background-repeat: no-repeat;
 	background-position: right;
+	border: 2px solid black;
 	opacity:0.8;
 	height: 150px;
 }
@@ -19,27 +22,90 @@ h1{
 	padding-left: 2em;
 }
 
+footer{
+	background-color: #9BC1C2;
+	font-size: .60em;
+	font-style: italic;
+	text-align: center;
+	margin: 50px;
+	padding: 0;
+	bottom: 0;
+	width: auto;
+
+
+}
 .studio{
 	font-style: italic;
 	margin: 10px;
 }
 
+.navigation nav {
+  text-align: center;
+  font-weight: bold;
+  background-color: #F5F5F5;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
 
 
+#wrapper{
+	width: auto;
+	margin: auto;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #CEECF5 ;
+}
 
+main {
+	padding-left: auto;
+	padding-right: auto;
+	margin: 50px;
+}
+
+img{
+
+	width: fit-content;
+
+}
+
+#hero{
+	text-align: center;
+}
+
+.list li{
+
+	list-style-type: circle;
+}
+.list ul{
+	display: block;
+	background-color: none;
+	list-style-type: disc;
+	margin-top: 1em;
+	margin-bottom: 1 em;
+	margin-left: 0;
+	margin-right: 0;
+	padding-left: 40px;
+}
 .navigation ul{
-	
+	overflow: hidden;
 	background-color: grey;
 	position: -webkit-sticky;
-	position:sticky;
+	position: sticky;
+	top: 0;
 	list-style-type: none;
-	top:0;
 	margin: 0;
 	padding: 0;
-	overflow: hidden;
+	
 }
 .navigation li{
 	float: left;
+	top: 0;
+	position: sticky;
+	position: -webkit-sticky;
 }
 
 .navigation li a{
@@ -58,69 +124,13 @@ h1{
 	background-color:#CEECF5;
 }
 
-.navigation nav {
-  text-align: center;
-  font-weight: bold;
-  background-color: #F5F5F5;
-}
+
 
 .navigation a{
 	color: #3F2860;
 }
 
-.list li{
-
-	list-style-type: circle;
-}
-.list ul{
-	display: block;
-	background-color: none;
-	list-style-type: disc;
-	margin-top: 1em;
-	margin-bottom: 1 em;
-	margin-left: 0;
-	margin-right: 0;
-	padding-left: 40px;
-}
-
-
-
-#wrapper{
-	width: 80%;
-	margin-right: auto;
-	margin-left: auto;
-	background-color: #CEECF5 ;
-	max-width: 1280;
-}
-
-main {
-	padding-left: auto;
-	padding-right: auto;
-	margin: 50px;
-}
-
-img{
-	float: right;
-	width: auto;
-
-}
-
-#hero{
-	text-align: center;
-}
 div.transparent{
 	opacity: 0.6;
 }
 
-footer{
-	background-color: #9BC1C2;
-	font-size: .60em;
-	font-style: italic;
-	text-align: center;
-	margin: 50px;
-	padding: 0;
-	bottom: 0;
-	width: auto;
-
-
-}

@@ -97,12 +97,13 @@ footer{
 }
 
 main {
-	padding: auto;
+	padding-left: 70px;
+	padding-right: 60px;
 }
 
 img{
 	float: right;
-	height: max-content;
+	width: auto;
 
 }
 

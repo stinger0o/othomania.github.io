@@ -16,6 +16,8 @@ h1{
 	
 	color: white;
 	font-weight: bold;
+	padding-top: 50px;
+	opacity: 0.9;
 }
 h2{
 	color: white;
@@ -67,7 +69,7 @@ div.background{
 	background-position: center;
 	height: 150px;
 	border: 2px solid black;
-	opacity: 0.6;
+	opacity: 0.4;
 }
 
 div #wrapper{

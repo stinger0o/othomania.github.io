@@ -19,53 +19,30 @@ h1{
 	padding-left: 2em;
 }
 
-nav {
-  text-align: center;
-  font-weight: bold;
-  background-color: #F5F5F5;
-  position: sticky;
-  position: -webkit-sticky;
-  top :0;
-}
-
 .studio{
 	font-style: italic;
 	margin: 10px;
 }
 
-footer{
-	background-color: #9BC1C2;
-	font-size: .60em;
-	font-style: italic;
-	text-align: center;
-	margin: 50px;
-	padding: 0;
-	bottom: 0;
-	width: auto;
 
 
-}
 
-
-a{
-	color: #3F2860;
-}
-.menu-bar ul{
+.navigation ul{
 	
 	background-color: grey;
 	position: -webkit-sticky;
 	position:sticky;
-	top:0;
 	list-style-type: none;
+	top:0;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
 }
-.navigation-bar li{
+.navigation li{
 	float: left;
 }
 
-.navigation-bar li a{
+.navigation li a{
 	display:block;
 	color: #3F2860;
 	text-align: center;
@@ -73,16 +50,31 @@ a{
 	text-decoration: none;
 }
 
-.navigation-bar li a:hover{
+.navigation li a:hover{
 	background-color: #F2E0F7;
 }
 
-.active {
+.navigation .active {
 	background-color:#CEECF5;
 }
 
-#list ul{
+.navigation nav {
+  text-align: center;
+  font-weight: bold;
+  background-color: #F5F5F5;
+}
+
+.navigation a{
+	color: #3F2860;
+}
+
+.list li{
+
+	list-style-type: circle;
+}
+.list ul{
 	display: block;
+	background-color: none;
 	list-style-type: disc;
 	margin-top: 1em;
 	margin-bottom: 1 em;
@@ -120,3 +112,15 @@ div.transparent{
 	opacity: 0.6;
 }
 
+footer{
+	background-color: #9BC1C2;
+	font-size: .60em;
+	font-style: italic;
+	text-align: center;
+	margin: 50px;
+	padding: 0;
+	bottom: 0;
+	width: auto;
+
+
+}

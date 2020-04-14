@@ -4,6 +4,7 @@ body{
 	font-family: Verdana, Arial, sans-serif;
 	background-attachment: fixed;
 	background-size: cover;
+	height: auto;
 	overflow: scroll;
 }
 
@@ -21,35 +22,58 @@ h1{
 	padding-top: 50px;	
 	padding-left: 2em;
 }
-
-footer{
-	background-color: #9BC1C2;
-	font-size: .60em;
-	font-style: italic;
+ 
+nav a{
+	  color: #3F2860;
+  }
+nav {
 	text-align: center;
-	margin: 50px;
+	font-weight: bold;
+	background-color: grey;
+	position: sticky;
+	position: -webkit-sticky;
+	top: 0;
+	margin: 0;
 	padding: 0;
-	bottom: 0;
-	width: auto;
+	overflow: hidden;
+	height: auto;
+  }
+nav ul{
+	  top: 0;
+	  list-style-type: none;
+	  margin: 0;
+	  padding: 0;
+	  
+  }
+nav ul li{
+	  float: left;
+  }
+  
+nav ul li a{
+	  display:block;
+	  color: #3F2860;
+	  text-align: center;
+	  padding: 14px 16px;
+	  text-decoration: none;
+ }
+  
+nav ul li a:hover{
+	  background-color: #F2E0F7;
+ }
+  
+nav ul .active {
+	  background-color:#CEECF5;
+ }
+  
+  
+ 
 
-
-}
 .studio{
 	font-style: italic;
 	margin: 10px;
 }
 
-.navigation nav {
-  text-align: center;
-  font-weight: bold;
-  background-color: #F5F5F5;
-  position: sticky;
-  position: -webkit-sticky;
-  top: 0;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
+
 
 
 #wrapper{
@@ -63,18 +87,21 @@ footer{
 main {
 	padding-left: auto;
 	padding-right: auto;
-	margin: 50px;
+	width: auto;
+	margin: 1em;
 }
 
 img{
 
-	width: fit-content;
+	width: auto;
+	height: auto;
 
 }
 
 #hero{
 	text-align: center;
 }
+
 
 .list li{
 
@@ -90,47 +117,22 @@ img{
 	margin-right: 0;
 	padding-left: 40px;
 }
-.navigation ul{
-	overflow: hidden;
-	background-color: grey;
-	position: -webkit-sticky;
-	position: sticky;
-	top: 0;
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	
-}
-.navigation li{
-	float: left;
-	top: 0;
-	position: sticky;
-	position: -webkit-sticky;
-}
-
-.navigation li a{
-	display:block;
-	color: #3F2860;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-}
-
-.navigation li a:hover{
-	background-color: #F2E0F7;
-}
-
-.navigation .active {
-	background-color:#CEECF5;
-}
 
 
-
-.navigation a{
-	color: #3F2860;
-}
 
 div.transparent{
 	opacity: 0.6;
 }
 
+footer{
+	background-color: #9BC1C2;
+	font-size: .60em;
+	font-style: italic;
+	text-align: center;
+	margin:0.4ex;
+	padding: auto;
+	bottom: 0;
+	width: auto;
+
+
+}

@@ -85,8 +85,7 @@ nav ul .active {
 }
 
 main {
-	padding-left: auto;
-	padding-right: auto;
+
 	width: auto;
 	margin: 1em;
 }
@@ -109,10 +108,8 @@ img{
 }
 .list ul{
 	display: block;
-	background-color: none;
 	list-style-type: disc;
 	margin-top: 1em;
-	margin-bottom: 1 em;
 	margin-left: 0;
 	margin-right: 0;
 	padding-left: 40px;
@@ -130,7 +127,6 @@ footer{
 	font-style: italic;
 	text-align: center;
 	margin:0.4ex;
-	padding: auto;
 	bottom: 0;
 	width: auto;
 
